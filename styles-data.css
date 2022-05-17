@@ -195,3 +195,13 @@ button{
         margin-left: 10px;
     }
 }
+
+
+.logo{
+    margin: 20px;
+    width: 200px;
+}
+
+.logo img{
+    width: 100%;
+}
