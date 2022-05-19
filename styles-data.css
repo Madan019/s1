@@ -48,7 +48,7 @@ button{
     width: 0%;
     height: 100%;
     background-color: #39FF14;
-    border-radius: 5px;
+    border-radius: 3.7px;
     transition: width 0.3s ease;
     z-index: -1;
     color: whitesmoke;
@@ -196,6 +196,13 @@ button{
     }
 }
 
+@media(max-width:384px){
+    .week .weekText .btn:last-child{
+        margin-top:10px;
+        top: 20px;
+    }
+}
+
 
 .nav{
     display: flex;
@@ -203,24 +210,21 @@ button{
     margin-top: 10px;
 }
 
-.nav .home a{
+.nav a{
     text-decoration: none;
     display: block;
-    font-size: 22px;
+    font-size: 18px;
     padding: 5px 20px;
     color: #39FF14;
 }
 
-.nav .home a:hover{
-    color: #3A3845;
-}
 
 .nav .home a span{
    height: 100%;
 }
 
 .logo{
-    width: 200px;
+    width: 150px;
 }
 
 .logo img{
